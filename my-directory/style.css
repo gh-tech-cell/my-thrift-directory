@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f8f9fa;
+    color: #1e2a3e;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2c3e50 0%, #1a2a36 100%);
+    color: white;
+    padding: 48px 0 56px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.85;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 40px 0 24px;
+    justify-content: center;
+}
+
+#searchInput, #stateFilter {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 40px;
+    background: white;
+    font-family: inherit;
+    flex: 1;
+    min-width: 200px;
+}
+
+#searchInput:focus, #stateFilter:focus {
+    outline: none;
+    border-color: #2c3e50;
+    box-shadow: 0 0 0 3px rgba(44,62,80,0.1);
+}
+
+.reset-btn {
+    background: #e2e8f0;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.2s;
+}
+
+.reset-btn:hover {
+    background: #cbd5e1;
+}
+
+/* Ad placeholder */
+.ad-placeholder {
+    background: #eef2f5;
+    border-radius: 16px;
+    text-align: center;
+    padding: 24px;
+    margin: 24px 0;
+    border: 1px dashed #94a3b8;
+    color: #475569;
+    font-size: 0.9rem;
+}
+
+/* Results count */
+.results-count {
+    margin: 16px 0 20px;
+    font-weight: 500;
+    color: #475569;
+}
+
+/* Directory Grid */
+.directory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+/* Card */
+.store-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.store-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.store-name {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.store-address {
+    color: #475569;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.store-city-state {
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+}
+
+.store-notes {
+    font-size: 0.85rem;
+    color: #5b6e8c;
+    margin: 12px 0;
+    border-left: 3px solid #cbd5e1;
+    padding-left: 12px;
+}
+
+.card-footer {
+    padding: 16px 20px 20px;
+    border-top: 1px solid #edf2f7;
+    display: flex;
+    gap: 12px;
+}
+
+.btn-map, .btn-website {
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.2s;
+}
+
+.btn-map {
+    background: #2c3e50;
+    color: white;
+}
+
+.btn-map:hover {
+    background: #1a2a36;
+}
+
+.btn-website {
+    background: #eef2ff;
+    color: #2c3e50;
+}
+
+.btn-website:hover {
+    background: #e2e8f0;
+}
+
+/* No results */
+.no-results {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+    border-radius: 24px;
+    color: #64748b;
+}
+
+/* Footer */
+footer {
+    background: #eef2f5;
+    text-align: center;
+    padding: 32px 0;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #475569;
+}
+
+footer a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    header h1 { font-size: 1.8rem; }
+    .filters { flex-direction: column; }
+    #searchInput, #stateFilter, .reset-btn { width: 100%; }
+    .directory-grid { grid-template-columns: 1fr; }
+}

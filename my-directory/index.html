@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrift Store Directory | Find Hidden Gems</title>
+    <meta name="description" content="Curated list of the best thrift stores across the USA. Search by city, state, or store name.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for clean typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🛍️ Thrift Store Directory</h1>
+            <p>Discover independently-owned thrift, vintage, and consignment stores — no big chains.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Search & Filter Section -->
+        <div class="filters">
+            <input type="text" id="searchInput" placeholder="Search by store name, city, or state..." autocomplete="off">
+            <select id="stateFilter">
+                <option value="">All States</option>
+                <!-- States will be populated by JavaScript -->
+            </select>
+            <button id="resetBtn" class="reset-btn">Reset Filters</button>
+        </div>
+
+        <!-- Ad Placeholder (Google AdSense or Mediavine will go here) -->
+        <div class="ad-placeholder">
+            <p>Advertisement</p>
+            <!-- Replace with your ad code later -->
+        </div>
+
+        <!-- Results Count -->
+        <div id="resultsCount" class="results-count">Loading stores...</div>
+
+        <!-- Directory Grid -->
+        <div id="directoryGrid" class="directory-grid">
+            <!-- Cards injected by JS -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Thrift Directory | Hand-curated listings | <a href="#">Suggest a store</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

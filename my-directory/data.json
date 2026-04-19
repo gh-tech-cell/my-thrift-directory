@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Second Chance Thrift",
+    "address": "123 Main Street",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97201",
+    "notes": "Huge book section and vintage clothing. Supports local animal shelter.",
+    "maps_url": "https://maps.google.com/?q=Second+Chance+Thrift+Portland+OR",
+    "website": "https://example.com/secondchance"
+  },
+  {
+    "name": "Vintage Vault",
+    "address": "456 Hawthorne Blvd",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97214",
+    "notes": "Mid-century furniture and collectibles. Open weekends only.",
+    "maps_url": "https://maps.google.com/?q=Vintage+Vault+Portland+OR",
+    "website": null
+  },
+  {
+    "name": "Austin Treasure Bin",
+    "address": "890 South Congress",
+    "city": "Austin",
+    "state": "TX",
+    "zip": "78704",
+    "notes": "Name-your-price on last Saturday of every month.",
+    "maps_url": "https://maps.google.com/?q=Austin+Treasure+Bin+TX",
+    "website": "https://example.com/atreasure"
+  },
+  {
+    "name": "Lone Star Resale",
+    "address": "210 E 6th Street",
+    "city": "Austin",
+    "state": "TX",
+    "zip": "78701",
+    "notes": "Specializes in cowboy boots and western wear.",
+    "maps_url": "https://maps.google.com/?q=Lone+Star+Resale+Austin",
+    "website": null
+  },
+  {
+    "name": "Buffalo Exchange",
+    "address": "1210 N Central Ave",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85004",
+    "notes": "Trendy secondhand clothing, buy/sell/trade.",
+    "maps_url": "https://maps.google.com/?q=Buffalo+Exchange+Phoenix",
+    "website": "https://www.buffaloexchange.com"
+  },
+  {
+    "name": "Desert Thrift",
+    "address": "3302 E Thomas Rd",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85018",
+    "notes": "Run by a local church; very low prices.",
+    "maps_url": "https://maps.google.com/?q=Desert+Thrift+Phoenix",
+    "website": null
+  },
+  {
+    "name": "Philly Aids Thrift",
+    "address": "710 S 5th Street",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19147",
+    "notes": "Iconic thrift store supporting HIV/AIDS services.",
+    "maps_url": "https://maps.google.com/?q=Philly+Aids+Thrift",
+    "website": "https://www.phillyaidsthrift.com"
+  },
+  {
+    "name": "Retro Replay",
+    "address": "45 E Girard Ave",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19125",
+    "notes": "Video games, vinyl records, and quirky decor.",
+    "maps_url": "https://maps.google.com/?q=Retro+Replay+Philadelphia",
+    "website": null
+  },
+  {
+    "name": "Value Village",
+    "address": "1030 N Monroe St",
+    "city": "Tallahassee",
+    "state": "FL",
+    "zip": "32303",
+    "notes": "Large chain but locally operated. Good for furniture.",
+    "maps_url": "https://maps.google.com/?q=Value+Village+Tallahassee",
+    "website": "https://www.valuevillage.com"
+  },
+  {
+    "name": "The Find",
+    "address": "1221 Capital Circle NE",
+    "city": "Tallahassee",
+    "state": "FL",
+    "zip": "32301",
+    "notes": "Boutique consignment, higher-end brands.",
+    "maps_url": "https://maps.google.com/?q=The+Find+Tallahassee",
+    "website": null
+  },
+  {
+    "name": "Goodwill Outlet",
+    "address": "2701 S 4th Ave",
+    "city": "Tucson",
+    "state": "AZ",
+    "zip": "85713",
+    "notes": "Pay by the pound – bring gloves!",
+    "maps_url": "https://maps.google.com/?q=Goodwill+Outlet+Tucson",
+    "website": "https://www.goodwill.org"
+  },
+  {
+    "name": "Humane Society Thrift",
+    "address": "324 W Grant Rd",
+    "city": "Tucson",
+    "state": "AZ",
+    "zip": "85705",
+    "notes": "All proceeds go to animal rescue.",
+    "maps_url": "https://maps.google.com/?q=Humane+Society+Thrift+Tucson",
+    "website": null
+  }
+]
